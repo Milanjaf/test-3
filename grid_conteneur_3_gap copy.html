@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html lang="fr"
+
+         <head> 
+                  <meta chartset="uft-8">
+                             <style>
+                             body{background-color:gold;}
+                               div{background-color:aquamarine;
+                              border:greenyellow 2px;}
+                              #conteneur {
+                              background-color: blue;
+                              display:grid;
+                               grid-template-columns:repeat(2,1fr,2fr);
+                               grid-template-rows:minimax(100px,auto);}
+        #box1{grid-column-start:1; grid-column-end: 3; grid-row-start:3 ; grid-row-end: 3;}
+        #box2{grid-column-start: 1;grid-column-end: 2;grid-row-start:3; grid-row-end:6;}
+                          </style>
+                    </head>
+  <body>
+       <div id="conteneur"> 
+   <div id="box1">UN</div>
+   <div id="box2">Deux</div>
+   <div id="box3">Trois</div>
+   <div id="box4">Quatre</div>
+   <div id="box5">Cinq</div> 
+
+     </div>
+  </body>
+    </html>
